@@ -1,6 +1,6 @@
 <main>
     {% for button in site.data.links.buttons %}
-    <h2 class="text-center">{{ button.category }}</h2>
+    <h4 class="text-center">{{ button.category }}</h4>
     {% for item in button.items %}
     <div class="row">
         {% if item.tag %}

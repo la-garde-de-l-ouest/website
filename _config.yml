@@ -11,12 +11,6 @@ favicon:
 logo: assets/images/garde_logo.png # Path / URL to the logo (e.g., 'assets/images/logo.png')
 url: https://la-garde-de-l-ouest.github.io/website # URL of your website
 locale: fr_FR # The value specifies the locale in which these tags are marked up. It follows the format `language_TERRITORY`.
-image:
-  path: assets/images/example.jpg # Used for SEO (og:image, twitter:image)
-  type: jpeg # File format of image.
-  height: 100 # Pixels
-  width: 100
-  alt: logo
 
 # Verified Badge Configuration
 badge:
