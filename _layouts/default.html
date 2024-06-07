@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     {% if site.ga4 != null %}
@@ -34,9 +34,19 @@
         <header>
             <div class="top is-center is-vertical-align">
                 <img class="is-rounded" width="75px" height="75px" src="{{ site.logo }}" alt="logo">
-                <h1 class="text-center">{{ site.name }}{% if site.badge.enable == true %}<span class="iconify-inline badge"
-                        data-icon="{{ site.badge.icon }}" style="color: {{ site.badge.color }}"></span>{% endif %}</h1>
+                <h1 class="text-center">{{ site.name }}{% if site.badge.enable == true %}<span
+                        class="iconify-inline badge" data-icon="{{ site.badge.icon }}"
+                        style="color: {{ site.badge.color }}"></span>{% endif %}</h1>
                 <p class="text-center">{{ site.description }}</p>
+                <p class="text-center">
+                    La Garde de l'Ouest est une association résidant à la Maison des Jeux de Nantes. Elle a pour
+                    objectif de faire découvrir les jeux de cartes à collectionner ou évolutifs à travers des rencontres
+                    hebdomadaires, et des événements ponctuels durant l'année, du tournoi amical au championnat de
+                    France de certains jeux. Les joueurs de l'association jouent à: Game of Thrones/Le Trône de Fer,
+                    Android Netrunner, Star Wars, Légende des Cinq Anneaux, Vampire The Eternal Struggle, Ashes les
+                    Héritiers du Phoenix, Le Seigneur des Anneaux, Horreur à Arkmham, Star Wars Destiny, Vs System,
+                    Warhammer Invasion, Warhammer 40k Conquest, et d'autres...
+                </p>
             </div>
         </header>
 
@@ -47,7 +57,7 @@
         {% include social.html %}
 
         <!-- Insta/TikTok/YouTube Link-in-bio -->
-        {% include bio.html %}
+        <!-- {% include bio.html %} -->
 
         <!-- Link Buttons -->
         {% include links.html %}
