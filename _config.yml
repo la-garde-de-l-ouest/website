@@ -2,9 +2,9 @@
 theme: linkhub-jekyll-theme
 
 # Site Configuration
-name: La garde de l'ouest  # Name of your website
+name: La Garde de l'ouest  # Name of your website
 tagline: Links  # Set your preferred page title
-description: Association de TCG Nantaise
+description: Association Nantaise de TCG
 favicon:
   path: assets/images/garde_logo.png # Path / URL to the favicon of your website (e.g., 'assets/images/favicon.png')
   type: png # File format of image. Change according to your image. Supported types: https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types
